@@ -12,6 +12,7 @@
 <tw-storydata name="Cas clínic 28M" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="9203C55C-6868-4DF3-9A60-E13640E7BBD2" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
   background-color: #e7d7f7; /* Canvia el color de fons de la pantalla */
   color: #000000;            /* Canvia el color de la lletra general */
+  font-size: 11pt;
 }
 
 tw-link {
@@ -20,7 +21,14 @@ tw-link {
 
 tw-link:hover {
   color: #9c6d16;            /* Color de l'enllaç quan es passa el ratolí per sobre */
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Títol" tags="" position="550,275" size="100,200">#(text-colour: #584275)[Un dia de consulta]&lt;h1&gt;
+}
+
+tw-passage {
+  background-color: transparent; 
+  max-width: 80%;               
+  margin: 0 auto;               
+  padding: 2em;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Títol" tags="" position="550,275" size="100,200">#(text-colour: #584275)[Un dia de consulta]&lt;h2&gt;
 
 [[Comença -&gt;Introducció]] </tw-passagedata><tw-passagedata pid="2" name="Introducció" tags="" position="850,300" size="100,100">És 28 de maig, un divendres de consulta qualsevol. T&#39;ha fallat la primera pacient i la següent arriba una mica abans, així que la fas passar. Tens 18 minuts per a ella!
 
@@ -30,60 +38,67 @@ tw-link:hover {
 
 Amb l&#39;anamnesi pots orientar el quadre com a una cefalea tensional sense signes d&#39;alarma. A l&#39;exploració física té una pressió arterial normal i l&#39;exploració neurològica no té focalitat. Associa una contractura cervical lleu.
 
-[[Encara tens una mica de temps així que preguntes per desencadenants. -&gt;Preguntes desencadenants]] 
-
-[[Passes a tractament. -&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="4" name="Preguntes desencadenants" tags="" position="1200,200" size="100,100">- A veure, últimament hem anat justos de diners a casa...
+[[a) Encara tens una mica de temps així que preguntes per desencadenants. -&gt;Preguntes desencadenants]] 
+[[b) Passes a tractament. -&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="4" name="Preguntes desencadenants" tags="" position="1200,200" size="100,100">- A veure, últimament hem anat justos de diners a casa...
 La Marina té 54 anys i durant 6 anys va deixar de treballar per cuidar dels seus tres fills fins que el més petit va començar l&#39;escola. 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)+(text-colour:#584275)[Sabies que el 89% de les excedències per cura de menors i el 78% per cura de familiars dependents són sol·licitades per dones? A més, el 64% de dones ha assumit algun cost laboral per a la cura familiar]
+&lt;p style=&quot;text-align: center;&quot;&gt;
+(text-colour:#584275)[**Sabies que el 89% de les excedències per cura de menors i el 78% per cura de familiars dependents són sol·licitades per dones? A més, el 64% de dones ha assumit algun cost laboral per a la cura familiar.**]
+&lt;p style=&quot;text-align: center;&quot;/&gt;
 En el cas de la Marina, va deixar de treballar durant 6 anys, que no només no va cobrar, sinó que no va cotitzar. Tampoc va progressar en l&#39;empresa, i en retornar a la feina no li van tornar a assignar el mateix grau de responsabilitats. El seu sou gairebé no ha progressat en els darrers anys i el seu home està a l&#39;atur. Ens explica que se sent estancada, &quot;encadenada a cobrar el mateix per sempre més&quot;.
 
-[[Li preguntes pel marit.-&gt;Marit]] 
-[[Li valides les emocions i passes a parlar del tractament. -&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="5" name="Tractament cefalea" tags="" position="1200,400" size="100,100">Tenint en compte el que saps de la Marina, li ofereixes analgèsia amb AINEs en pauta curta i un full amb estiraments per al dolor cervical. Li indiques els signes d&#39;alarma. Marxa i segueixes amb la consulta del dia.
+[[a) Li preguntes pel marit.-&gt;Marit]] 
+[[b) Li valides les emocions i passes a parlar del tractament. -&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="5" name="Tractament cefalea" tags="" position="1200,400" size="100,100">Tenint en compte el que saps de la Marina, li ofereixes analgèsia amb AINEs en pauta curta i un full amb estiraments per al dolor cervical. Li indiques els signes d&#39;alarma. Marxa i segueixes amb la consulta del dia.
 
 Acabes puntual i tornes a casa a l&#39;hora. El teu bebè de 7 mesos està tranquil, però tens un munt de tasques per fer. Quan no hi ets, la teva parella, la Júlia, només té mans per gestionar el bebè, així que heu pactat fer tasques només quan estigueu les dues. Dediques la tarda a buidar el rentaplats, netejar el tira-llets, fer un purè de verdures per a la criatura, doblegar la roba que duu penjada fora quatre dies i seure una estona.
 
 [[La tarda passa volant.-&gt;Conclusió final]] </tw-passagedata><tw-passagedata pid="6" name="Marit" tags="" position="1400,200" size="100,100">- El Diego fa el que pot per casa, m&#39;ajuda i tal, però està ocupat amb això de buscar feina. Va estudiar de mecànic de cotxes i no hi ha tanta demanda ara mateix.
 Escoltes aquest &quot;m&#39;ajuda&quot; i entens que la Marina percep les tasques de la llar com una obligació únicament d&#39;ella, on el seu marit pot ajudar si vol, i no pas responsabilitzar-se&#39;n activament.
-(align:&quot;&lt;==&quot;)+(box:&quot;X=&quot;)+(text-colour:#584275)[Sabies que les dones ocupen el 84% de les tasques de cura informal? A més a més, dediquen el doble d’hores al treball domèstic respecte els homes.]
+&lt;p style=&quot;text-align: center;&quot;&gt;
+(text-colour:#584275)[**Sabies que les dones ocupen el 84% de les tasques de cura informal? A més a més, dediquen el doble d’hores al treball domèstic respecte els homes.**]
+&lt;p style=&quot;text-align: center;&quot;/&gt;
 
-[[Ja que hi ets, preguntes pels fills.-&gt;Fills]]
-[[Valides la seva experiència i passes a parlar del tractament. -&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="7" name="Fills" tags="" position="1600,200" size="100,100">- Doncs la més gran ha estat mare fa molt poquet, i ho va passar malament al part. Li van fer episiotomia sense avisar, i després alguns comentaris amb donar-li fórmula al bebè en lloc del pit que se sent extremadament culpable... La veritat és que a més de lo difícil que és tenir un nadó se li ha ajuntat amb el disgust... plora per tot arreu... li estan fent seguiment per depressió postpart.
+[[a) Ja que hi ets, preguntes pels fills.-&gt;Fills]]
+[[b) Valides la seva experiència i passes a parlar del tractament. -&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="7" name="Fills" tags="" position="1600,200" size="100,100">- Doncs la més gran ha estat mare fa molt poquet, i ho va passar malament al part. Li van fer episiotomia sense avisar, i després alguns comentaris amb donar-li fórmula al bebè en lloc del pit que se sent extremadament culpable... La veritat és que a més de lo difícil que és tenir un nadó se li ha ajuntat amb el disgust... plora per tot arreu... li estan fent seguiment per depressió postpart.
 
 La Marina plora en explicar-nos el malestar de la seva filla. 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)+(text-colour:#584275)[Sabies que la prevalença mundial de la depressió postpart és del 10-25%? Hi ha una relació directa entre nivell socioeconòmic i salut mental materna, violència masclista, manca de recolzament social i estrés vital.]
+&lt;p style=&quot;text-align: center;&quot;&gt;
+(text-colour:#584275)[**Sabies que la prevalença mundial de la depressió postpart és del 10-25%? Hi ha una relació directa entre nivell socioeconòmic i salut mental materna, violència masclista, manca de recolzament social i estrés vital.**]
+&lt;p style=&quot;text-align: center;&quot;/&gt;
 La salut sexual i reproductiva és una part essencial de la salut de les dones. Històricament invisibilitzada pel model biomèdic androcèntric, la falta de coneixement de qualitat ha impedit realitzar una atenció correcta a les dones fins avui dia. El pla de part, per exemple, és un document on la persona embarassada expressa els seus desitjos per al part, per tal que puguin ser respectats. No es va dissenyar un model estandaritzat a Espanya fins el 2011, tot i que les dones han donat llum durant segles i el procés de part s&#39;ha medicalitzat des fa dècades.
 
-[[Li dones un mocador, valides les seves emocions i preguntes per la mare.-&gt;Mare]] 
-[[Li dones un mocador, valides les seves emocions i passes a parlar del tractament.-&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="8" name="Mare" tags="" position="1800,200" size="100,100">Se t&#39;està allargant molt la consulta, però has decidit que és important comprendre la situació actual de la Marina en tot detall per tal d&#39;interrelacionar-ho amb el seu motiu de consulta i oferir el millor tractament i seguiment possibles. Enhorabona!, no és fàcil. Li preguntes per la seva mare, l&#39;Helena, que es visita a un altre CAP perquè viu a un altre barri:
+[[a) Li dones un mocador, valides les seves emocions i preguntes per la mare.-&gt;Mare]] 
+[[b) Li dones un mocador, valides les seves emocions i passes a parlar del tractament.-&gt;Tractament cefalea]] </tw-passagedata><tw-passagedata pid="8" name="Mare" tags="" position="1800,200" size="100,100">Se t&#39;està allargant molt la consulta, però has decidit que és important comprendre la situació actual de la Marina en tot detall per tal d&#39;interrelacionar-ho amb el seu motiu de consulta i oferir el millor tractament i seguiment possibles. Enhorabona!, no és fàcil. Li preguntes per la seva mare, l&#39;Helena, que es visita a un altre CAP perquè viu a un altre barri:
 
 - La mare va tenir un infart fa un parell de mesos, just després del part de la nena. Van tardar en trobar-li i, a sobre, van tenir problemes amb l&#39;stent aquest que posen. Ara ja està millor, però la recuperació és tan lenta, doctora... Vaig i torno a casa seva cada dos o tres dies per portar-li menjar.
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)+(text-colour:#584275)[Sabies que el símptoma més freqüent d&#39;infart en dones també és el dolor toràcic, però més freqüentment que els homes presenten altres símptomes, com ara dispnea, astènia o nàusees? D&#39;afegit, les estructures anatòmiques en les dones solen ser més petites i per tant l&#39;efectivitat dels stents pot ser inferior en dones.]
+&lt;p style=&quot;text-align: center;&quot;&gt;
+(text-colour:#584275)[**Sabies que el símptoma més freqüent d&#39;infart en dones és el dolor toràcic, però presenten altres símptomes associats més habitualment, com ara dispnea, astènia o nàusees? Així mateix, les estructures anatòmiques en les dones solen ser més petites i per tant l&#39;efectivitat dels stents pot ser inferior en dones.**]
+&lt;p style=&quot;text-align: center;&quot;/&gt;
 Has identificat els desencadenants de la cefalea tensional de la Marina. 
 
 [[Ja ho tens tot, així que passes a parlar del tractament. -&gt;Tractament bien]]  
 
 </tw-passagedata><tw-passagedata pid="9" name="Tractament bien" tags="" position="2000,200" size="100,100">Tenint en compte totes les variables, amb una visió de gènere a la consulta, li ofereixes a la Marina diverses opcions: analgèsia via oral, un full amb estiraments per al dolor cervical, una visita amb la treballadora social per valorar un ingrés tipus Respir per a la seva mare, i una trucada amb la psicòloga del CAP per valorar assistir a la següent edició de grup de cuidadores.
 
-La Marina escull l&#39;analgèsia i la visita amb la treballadora social. T&#39;explica que no té temps per estiraments, i menys encara per venir un cop a la setmana durant dos mesos amb la psicòloga, &quot;que la casa no es mantindrà sola&quot;. Li deixes la porta oberta per si s&#39;ho repensa més endavant.
+La Marina escull l&#39;analgèsia i la visita amb la treballadora social. T&#39;explica, entristida, que no té temps per estiraments, i menys encara per venir un cop a la setmana durant dos mesos amb la psicòloga, &quot;que la casa no es mantindrà sola&quot;. Li deixes la porta oberta per si s&#39;ho repensa més endavant.
 
 
 [[T&#39;acomiades de la Marina i marxa. -&gt;Fi del cas]] </tw-passagedata><tw-passagedata pid="10" name="Fi del cas" tags="" position="2200,200" size="100,100">Tot i que la resta del dia roda bé, has dedicat molta estona a la primera pacient, després tens una sessió d&#39;equip, acabes les visites telefòniques i arribes una hora tard a casa. El teu bebè de 7 mesos ha estat plorant desconsoladament aquesta darrera hora. Et sents culpable per ser mare treballadora mentre li dones el pit. Ja somriu, penses que has fet bé tot allò que has pogut.
 
 
-[[La tarda passa volant i ja és de nit. -&gt;Conclusió final]]  
-[[A la tarda tens una estoneta per parlar amb la teva parella sobre la doble presència. -&gt;Doble presència]] </tw-passagedata><tw-passagedata pid="11" name="Conclusió final" tags="" position="2400,200" size="100,100">Recorda: els factors socials relacionats amb el gènere com ara la sobrecàrrega de cures, la precarietat laboral i d’habitatge, i la violència de gènere també impacten directament en la salut de les dones.
+[[a) La tarda passa volant i ja és de nit. -&gt;Conclusió final]]  
+[[b) A la tarda busques una estoneta per parlar amb la teva parella sobre la doble presència. -&gt;Doble presència]] </tw-passagedata><tw-passagedata pid="11" name="Conclusió final" tags="" position="2400,200" size="100,100">Recorda: els factors socials relacionats amb el gènere com ara la sobrecàrrega de cures, la precarietat laboral i d’habitatge, i la violència de gènere també impacten directament en la salut de les dones.
 
 És responsabilitat nostra posar-nos les ulleres de gènere a la consulta, en la mesura del possible, per fer una medicina real i justa. 
 
 Aquest 28 de maig, Dia Internacional d&#39;Acció per la Salut de les Dones, reivindiquem la necessitat de més recerca i docència amb perspectiva de sexe i gènere.
 
-Les dones vivim més anys, però amb pitjor qualitat de vida que els homes.
+**Les dones vivim més anys, però amb pitjor qualitat de vida que els homes.
 
-(text-colour:#584275)[Siguem el canvi que el món necessita.]
+(text-colour:#584275)+(text-size: 1.3)[Siguem el canvi que el món necessita.]**
 
 
-
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[Si ets metge/ssa i vols unir-te al grup de treball de Salut Integral de les Dones, contacta&#39;ns a través de la CAMFIC! Estarem encantadis de rebre&#39;t i comptar amb tu per engegar nous projectes.]
+&lt;p style=&quot;text-align: center;&quot;&gt; 
+(text-colour:#751c46)[**Si ets metge/ssa i vols unir-te al grup de treball de Salut Integral de les Dones, contacta&#39;ns a través de la CAMFIC! Estarem encantadis de rebre&#39;t i comptar amb tu per engegar nous projectes.**]
 </tw-passagedata><tw-passagedata pid="12" name="Doble presència" tags="" position="2300,400" size="100,100">- Escolta, Júlia, he estat pensant en això de maternar i treballar. Sento que no faig bé del tot ni l&#39;una ni l&#39;altra. I per fer-ho tot a mitges, corrent i patint, prefereixo fer una bé. I el que més m&#39;importa ara és el nostre petitó. Em trenca el cor pensar que plora perquè no hi soc. No puc mantenir més aquesta situació... Què et semblaria si demano una excedència?
 - Amor, és una decisió molt difícil però molt encertada... farem el que tu creguis millor per a nosaltres. Ens ho podem permetre, i aquest moment no es repetirà mai més. Tu decideixes.
 
